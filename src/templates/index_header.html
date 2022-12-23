@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Orders Home</title>
+<!-- haha what a refresh hack. should have gotten into ajax.-->
+<meta http-equiv="refresh" content="5">
+<style>
+tr:hover {background-color: #D6EEEE;}
+<!- tr:nth-child(even) { background-color: rgba(150, 212, 212, 0.4); } ->
+th:nth-child(even),td:nth-child(even) {
+background-color: rgba(150, 212, 212, 0.4);
+}
+th, td { padding: 10px; }
+</style>
+</head>
+<body>
+<h1>Orders Home</h1>
+<button onclick="window.open('/submit/order','_blank')">Submit Order</button>
+<div id="order_table">
+<table style='width:100%'> 
+<tr>
+<th>Status</th>
+<th>Name</th>
+<th>Server</th>
+<th style='width:30%'>Details</th>
+<th>Submitted</th>
+<th>ID</th>
+</tr>
