@@ -2,7 +2,7 @@ I probably wouldn't do this entire thing from the `HTML` down in Rust without We
 get together and had a few hours before it kicked off. I decided to build arguably the most minimal LAN pizza ordering app possible for fun. 
 
 ## Run
-Either throw it in a docker container or just run it on your local machine, doesn't take much.
+Either throw it in a docker container (optionally sync container timezone with local) or just run it on your local machine, doesn't take much.
 You'll need to set a few env variables:
 ```
 SERVER_ADDR=X.X.X.X # Address for web server.
